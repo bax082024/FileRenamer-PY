@@ -6,4 +6,14 @@ The script is useful for bulk renaming operations and ensuring that changes can 
 
 ---
 
+## Features
+
+- Rename multiple files based on user-defined patterns.
+- Filter by file type (example: `.txt`, `.jpg`, etc.).
+- Stores a backup of original filenames before renaming.
+- Undo functionality to restore previous filenames.
+- Error handling for missing files and permission issues.
+
+---
+
 
