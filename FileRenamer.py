@@ -1,8 +1,12 @@
 ﻿import os
 
-folder_path = r"C:\Users\busch\OneDrive\Documents\aagergaergaerg\PYYYTest"
+folder_path = input("Enter the folder path where the files are located: ").strip()
 
-file_extension = input("Enter the file type to rename (example: .txt, .jpg etc): ").strip()
+if not os.path.exists(folder_path):
+    print("Error: The specified folder does not exist. Please check the path and try again.")
+    exit()
+
+file_extension = input("Enter the file type to rename (e.g., .txt): ").strip()
 name_pattern = input("Enter the naming pattern (use {num} for numbers): ").strip()
 
 files = os.listdir(folder_path)
