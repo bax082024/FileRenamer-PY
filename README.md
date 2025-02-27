@@ -40,3 +40,9 @@ The script is useful for bulk renaming operations and ensuring that changes can 
 
 ---
 
+## Contact
+
+For questions or feedback, please contact :
+
+- **bax082024@gmail.com**
+
