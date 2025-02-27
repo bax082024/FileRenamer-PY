@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="FileRenamer.py" />
+    <Compile Include="UndoRename.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
