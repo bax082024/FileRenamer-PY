@@ -16,4 +16,12 @@ The script is useful for bulk renaming operations and ensuring that changes can 
 
 ---
 
+## Requirements
+
+- Python 3.x
+- Works on Windows, Linux, macOS
+
+---
+
+
 
